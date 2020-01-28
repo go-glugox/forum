@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27c1a60a-3d0a-4d61-91a5-1c5c280c2e94" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.circleci/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.circleci/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/forum.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/forum.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -15,6 +15,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Go File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -44,7 +46,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/main.go" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../forum-frontend" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoProjectSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
@@ -114,7 +118,8 @@
     <MESSAGE value="Change package" />
     <MESSAGE value="Add ctrl, server" />
     <MESSAGE value="Ready to deploy" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready to deploy" />
+    <MESSAGE value="Fix for CI" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix for CI" />
   </component>
   <component name="WindowStateProjectService">
     <state x="573" y="196" width="800" height="684" key="#Build_Tags_&amp;_Vendoring" timestamp="1580167782410">
@@ -129,10 +134,10 @@
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
     <state x="573" y="196" width="800" height="684" key="#Inspections/37.27.1883.1053@37.27.1883.1053" timestamp="1580168182192" />
-    <state x="436" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580168263181">
+    <state x="436" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580241782842">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
-    <state x="436" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog/37.27.1883.1053@37.27.1883.1053" timestamp="1580168263181" />
+    <state x="436" y="193" key="#com.intellij.execution.impl.EditConfigurationsDialog/37.27.1883.1053@37.27.1883.1053" timestamp="1580241782842" />
     <state x="657" y="340" width="632" height="397" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1580216225696">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
@@ -141,30 +146,30 @@
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
     <state x="652" y="186" width="642" height="705" key="#go_build_main.go/37.27.1883.1053@37.27.1883.1053" timestamp="1580168232053" />
-    <state x="543" y="131" width="860" height="814" key="CommitChangelistDialog2" timestamp="1580218204292">
+    <state x="543" y="131" width="860" height="814" key="CommitChangelistDialog2" timestamp="1580244408837">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
-    <state x="543" y="131" width="860" height="814" key="CommitChangelistDialog2/37.27.1883.1053@37.27.1883.1053" timestamp="1580218204292" />
-    <state x="761" y="293" width="424" height="491" key="FileChooserDialogImpl" timestamp="1580167978810">
+    <state x="543" y="131" width="860" height="814" key="CommitChangelistDialog2/37.27.1883.1053@37.27.1883.1053" timestamp="1580244408837" />
+    <state x="761" y="293" width="424" height="491" key="FileChooserDialogImpl" timestamp="1580234633816">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
-    <state x="761" y="293" width="424" height="491" key="FileChooserDialogImpl/37.27.1883.1053@37.27.1883.1053" timestamp="1580167978810" />
-    <state width="1837" height="354" key="GridCell.Tab.0.bottom" timestamp="1580170481366">
+    <state x="761" y="293" width="424" height="491" key="FileChooserDialogImpl/37.27.1883.1053@37.27.1883.1053" timestamp="1580234633816" />
+    <state width="1837" height="349" key="GridCell.Tab.0.bottom" timestamp="1580243568077">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
-    <state width="1837" height="354" key="GridCell.Tab.0.bottom/37.27.1883.1053@37.27.1883.1053" timestamp="1580170481366" />
-    <state width="1837" height="354" key="GridCell.Tab.0.center" timestamp="1580170481366">
+    <state width="1837" height="349" key="GridCell.Tab.0.bottom/37.27.1883.1053@37.27.1883.1053" timestamp="1580243568077" />
+    <state width="1837" height="349" key="GridCell.Tab.0.center" timestamp="1580243568076">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
-    <state width="1837" height="354" key="GridCell.Tab.0.center/37.27.1883.1053@37.27.1883.1053" timestamp="1580170481366" />
-    <state width="1837" height="354" key="GridCell.Tab.0.left" timestamp="1580170481366">
+    <state width="1837" height="349" key="GridCell.Tab.0.center/37.27.1883.1053@37.27.1883.1053" timestamp="1580243568076" />
+    <state width="1837" height="349" key="GridCell.Tab.0.left" timestamp="1580243568076">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
-    <state width="1837" height="354" key="GridCell.Tab.0.left/37.27.1883.1053@37.27.1883.1053" timestamp="1580170481366" />
-    <state width="1837" height="354" key="GridCell.Tab.0.right" timestamp="1580170481366">
+    <state width="1837" height="349" key="GridCell.Tab.0.left/37.27.1883.1053@37.27.1883.1053" timestamp="1580243568076" />
+    <state width="1837" height="349" key="GridCell.Tab.0.right" timestamp="1580243568076">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
-    <state width="1837" height="354" key="GridCell.Tab.0.right/37.27.1883.1053@37.27.1883.1053" timestamp="1580170481366" />
+    <state width="1837" height="349" key="GridCell.Tab.0.right/37.27.1883.1053@37.27.1883.1053" timestamp="1580243568076" />
     <state width="1837" height="355" key="GridCell.Tab.1.bottom" timestamp="1580169036759">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
@@ -185,18 +190,22 @@
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
     <state x="467" y="170" width="1022" height="737" key="SettingsEditor/37.27.1883.1053@37.27.1883.1053" timestamp="1580167631674" />
-    <state x="573" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1580218211795">
+    <state x="573" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2" timestamp="1580232643223">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
-    <state x="573" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/37.27.1883.1053@37.27.1883.1053" timestamp="1580218211795" />
+    <state x="573" y="271" width="800" height="535" key="Vcs.Push.Dialog.v2/37.27.1883.1053@37.27.1883.1053" timestamp="1580232643223" />
+    <state x="642" y="227" width="662" height="622" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580239193373">
+      <screen x="37" y="27" width="1883" height="1053" />
+    </state>
+    <state x="642" y="227" width="662" height="622" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/37.27.1883.1053@37.27.1883.1053" timestamp="1580239193373" />
     <state x="746" y="455" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1580166235679">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
     <state x="746" y="455" width="464" height="167" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/37.27.1883.1053@37.27.1883.1053" timestamp="1580166235679" />
-    <state x="626" y="131" width="704" height="807" key="find.popup" timestamp="1580215569442">
+    <state x="627" y="132" width="908" height="807" key="find.popup" timestamp="1580244116748">
       <screen x="37" y="27" width="1883" height="1053" />
     </state>
-    <state x="626" y="131" width="704" height="807" key="find.popup/37.27.1883.1053@37.27.1883.1053" timestamp="1580215569442" />
+    <state x="627" y="132" width="908" height="807" key="find.popup/37.27.1883.1053@37.27.1883.1053" timestamp="1580244116748" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
